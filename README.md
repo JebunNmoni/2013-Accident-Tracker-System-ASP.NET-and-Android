@@ -21,9 +21,10 @@ This application has two basic User Interfaces:
 6.	 If you are moving, the application will automatically update your location.
 ## Tracking an Accident
 7.	You can track an accident by zooming in to the exact place of accident and then press and hold on that location for at least 1 second. You will get a dialog box asking you the following three,
- a.	 Place a pinpoint (this will place a pinpoint)
- b.	Toggle view (this will toggle between street and satellite views)
- c.	 Get Address (this will tell you the address of the place you pressed)
+
+-	 Place a pinpoint (this will place a pinpoint)
+-	Toggle view (this will toggle between street and satellite views)
+- Get Address (this will tell you the address of the place you pressed)
 
 
 Once you placed a pinpoint on the location where the accidents actually occurred, the button 'Toggle View' will be replaced by another button titled 'Post Accidents'. You may want to place more than one pinpoints to track multiple accidents. You may proceed to do anyone of these. Sometimes placing a pinpoint on google map may appear a little slow. You may not notice a pinpoint right after placing it. Please wait for 10 to 15 seconds; you will get your pinpoint placed on the exact location you want.
