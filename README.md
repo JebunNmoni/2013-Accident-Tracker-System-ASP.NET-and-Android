@@ -25,34 +25,33 @@ This application has two basic User Interfaces:
  -	Toggle view (this will toggle between street and satellite views)
  - Get Address (this will tell you the address of the place you pressed)
 
-
 Once you placed a pinpoint on the location where the accidents actually occurred, the button 'Toggle View' will be replaced by another button titled 'Post Accidents'. You may want to place more than one pinpoints to track multiple accidents. You may proceed to do anyone of these. Sometimes placing a pinpoint on google map may appear a little slow. You may not notice a pinpoint right after placing it. Please wait for 10 to 15 seconds; you will get your pinpoint placed on the exact location you want.
 
 
 ## Posting Data
 
 8.	Once you clicked the button ‘Post Accidents’ you will get a form showing the following fields,
-a.	Latitude
-b.	Longitude
-c.	Date & Time
-d.	Address
-e.	Description
+ - Latitude
+ - Longitude
+ -	Date & Time
+ -	Address
+ -	Description
 9.	 You will not be able to change the Latitude and longitude.
 10.	The Date & Time is already set to the value when you actually placed the pushpin. But you can edit this using ‘Change Date and Time’ button.
 11.	Sometimes Geocoder fails to obtain the address. In that case you should enter it manually in the Address Textarea.
 12.	Finally you may want to enter your observation and other important data about the accident in the ‘Description of the accident’ Textarea.
 13.	You will find few more buttons on this form,
-a.	Post Data: The data will be stored in the database.
-b.	Skip: The data will be lost.
-c.	View All Data: You will get a table showing all available accident data posted by you and others.
-d.	View Your Posted Data: This will show you the table that contains everything posted by you.
-e.	Track New Accidents: This will take you back to the map to track new accidents.
+ -	Post Data: The data will be stored in the database.
+ - Skip: The data will be lost.
+ - View All Data: You will get a table showing all available accident data posted by you and others.
+ - View Your Posted Data: This will show you the table that contains everything posted by you.
+ - Track New Accidents: This will take you back to the map to track new accidents.
 
 # About Database
 
 14.	The application uses two databases,
-a.	SQL Lite on in your Android Phone
-b.	SQL Server for the website.
+ - SQL Lite on in your Android Phone
+ - SQL Server for the website.
 15.	SQL Lite: This database will record all the accidents tracked by you.
 16.	SQL Server: This will record all the accidents tracked by everyone.
 About the Website
