@@ -8,21 +8,24 @@ This application was first thought by Dr. Zong Tian as part of his ongoing resea
 This application has two basic User Interfaces:
 1.	Mobile Application: This part of the application was particularly designed for Android phone. Any user of Android Mobile phone equipped with GPS facility may install this software and post information of accidents to this website. To run the application satisfactorily one need Android 2.2 or higher.
 2.	Web Application: This website was based on ASP.NET 3.5 and SQL Server 2005. All the data posted by mobile phones will come directly to this website. Anyone can see the posted data on the map.
-User Manual
+
+# User Manual
 
 ## Installation on Mobile
 1.	Get the apk file from the ‘\Android-Accident-Tracker\bin’ folder of the project.
 2.	Install it to your mobile phone.
 3.	Run the application.
- Google Map and Your Current Location
+## Google Map and Your Current Location
 4.	You will get google map showing your current location.
 5.	 You can zoom to your location.
 6.	 If you are moving, the application will automatically update your location.
 ## Tracking an Accident
 7.	You can track an accident by zooming in to the exact place of accident and then press and hold on that location for at least 1 second. You will get a dialog box asking you the following three,
-a.	 Place a pinpoint (this will place a pinpoint)
-b.	Toggle view (this will toggle between street and satellite views)
-c.	 Get Address (this will tell you the address of the place you pressed)
+ a.	 Place a pinpoint (this will place a pinpoint)
+ b.	Toggle view (this will toggle between street and satellite views)
+ c.	 Get Address (this will tell you the address of the place you pressed)
+
+
 Once you placed a pinpoint on the location where the accidents actually occurred, the button 'Toggle View' will be replaced by another button titled 'Post Accidents'. You may want to place more than one pinpoints to track multiple accidents. You may proceed to do anyone of these. Sometimes placing a pinpoint on google map may appear a little slow. You may not notice a pinpoint right after placing it. Please wait for 10 to 15 seconds; you will get your pinpoint placed on the exact location you want.
 
 
